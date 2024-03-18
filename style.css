@@ -1,0 +1,85 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:lightsalmon;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 17px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.img1{
+
+
+    height:600px;
+
+    background-image: url(imgs/back5.jpeg);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+
+    background-color: lightgreen;
+
+
+
+
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+}
+
+
+/* .featured_books div img{
+
+    width: %;
+} */
+
+.featured_books div{
+
+
+    width: 25%;
+
+    float: left;
+
+}
+
+.clear{
+    clear: both;
+}
